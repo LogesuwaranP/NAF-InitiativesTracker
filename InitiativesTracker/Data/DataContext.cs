@@ -11,5 +11,8 @@ namespace InitiativesTracker.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<idealist> Ideatable {  get; set; }
+
+        public DbSet<Comments>CommentsTable { get; set; }
     }
 }
